@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-wc4n
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/ci10t-777-0045-tenant/ci10t-777-0045-app/devfile-sample-wc4n@sha256:359eb63781bb2d675795eb399639435587b209c87418f73a877692254c9589a9
         name: my-nodejs
         ports:
         - containerPort: 3001
